@@ -1,0 +1,271 @@
+body{
+	background:linear-gradient(100deg,#141518,#B0B0B0,#B0B0B0,#141518)
+}	
+#main-card{
+	position: relative;
+	left:195px;
+	top:-150px;
+	height: 500px;
+  width: 940px;
+  background:linear-gradient(-80deg,#141518,#CACACA,#CACACA,#141518);
+  border-radius: 5px;
+}
+
+@keyframes alertforgamb {
+  0%   {width:150px;}
+  25%  {width:155px;}
+  50%  {width:153px}
+  100% {width:151px}
+}
+
+#maincontainer {
+	visibility: visible;
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  background: none;
+  top: 250px;
+  left: 120px;
+  transform: translate(-50%, -50%);
+}
+.thecard {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+
+.thefront {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: linear-gradient(-80deg,#141518,#CACACA,#CACACA,#141518);
+  color: #000;
+}
+
+.theback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: linear-gradient(-80deg,#141518,#CACACA,#CACACA,#141518);
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.thefront h1,
+.theback h1 {
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p,
+.theback p {
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+}	
+#dice{
+  position:relative;
+  top:20px;
+  left:50px
+}
+#maincontainer1 {
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  background: none;
+  top: 250px;
+  left: 340px;
+  transform: translate(-50%, -50%);
+}
+#rollet{
+	position:relative;
+	top:20px;
+  left:50px
+}
+#maincontainer2 {
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  background: none;
+  top: 250px;
+  left: 820px;
+  transform: translate(-50%, -50%);
+}
+#comingsoon{
+	position:relative;
+	top:30px;
+  left:50px
+}#maincontainer3 {
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  background: none;
+  top: 250px;
+  left: 595px;
+  transform: translate(-50%, -50%);
+}
+@keyframes ourgames{
+  0%   {width: 480px}
+  25%  {width: 485px}
+  50%  {width: 490px}
+  75%  {width: 485px}
+  100% {width: 480px}
+}
+#ourgames{
+	position: relative;
+	left:218px;
+	top: 8px;
+	animation-name: ourgames;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+}
+#button {
+  background: linear-gradient(10deg,#141518,#CACACA,#CACACA,#141518);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+   border-radius: 3px;
+   position:absolute;
+   left:290px;
+   top:430px;
+}
+#button1 {
+  background: linear-gradient(-10deg,#141518,#CACACA,#CACACA,#141518);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+   border-radius: 3px;
+   position:absolute;
+   left:510px;
+   top:430px;
+}
+#Sign-in-card{
+	visibility: hidden;
+    width:420px;
+    height:250px;
+    background:linear-gradient(-50deg,#CACACA,#141518,#141518,#CACACA);
+     border-radius: 5px;
+     position: absolute;
+     left:250px;
+     }
+#inputname{
+	visibility: hidden;
+	background:linear-gradient(-120deg,#CACACA,#141518,#141518,#CACACA);
+width:100px
+height:100px;
+position: relative;
+left:265px;
+top:70px;
+}
+#inputpass{
+	visibility: hidden;
+	background:linear-gradient(-120deg,#CACACA,#141518,#141518,#CACACA);
+width:100px
+height:100px;
+position: relative;
+left:84px;
+top:150px;
+
+}
+#m-card{
+	visibility: hidden;
+	background:linear-gradient(-120deg,#CACACA,#141518,#141518,#CACACA);
+width:100px
+height:100px;
+position: relative;
+left:105px;
+top:195px;
+
+}
+#yourname{
+	visibility: hidden;
+	position: relative;
+	left:-275px;
+	top:37px;
+}
+#password{
+	visibility: hidden;
+position: relative;
+left:-460px;
+top:130px
+
+}
+
+#paymentcard{
+	visibility: hidden;
+position: relative;
+left:460px;
+top:65px
+
+}
+#cheeps{
+	visibility: hidden;
+	position: relative;
+	left:300px;
+top:-5px
+
+}
+#send{
+	visibility: hidden;
+ background: linear-gradient(-10deg,#141518,#CACACA,#CACACA,#141518);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+   border-radius: 3px;
+   position:relative;
+   top:105px;
+   left:250px;
+}
+#send1{
+visibility: hidden;
+ background: linear-gradient(-10deg,#141518,#CACACA,#CACACA,#141518);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+   border-radius: 3px;
+   position:relative;
+   top:105px;
+   left:415px;
+}
+

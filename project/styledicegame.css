@@ -1,0 +1,252 @@
+body{
+	background:linear-gradient(0deg,#141518,#B0B0B0,#B0B0B0,#141518)
+}	
+#main-card0{
+	position: relative;
+	left:195px;
+	top:40px;
+	height: 500px;
+  width: 940px;
+  background:linear-gradient(-80deg,#141518,#CACACA,#CACACA,#141518);
+  border-radius: 5px;
+}
+
+#yourbalance{
+	width:220px;
+    height:55px;
+    background:linear-gradient(180deg,#282828,#141518,#141518,#282828);
+     border-radius: 5px;
+     position: relative;
+     left:720px;
+     }
+
+#balancephoto{
+	width: 100px;
+	position:relative;
+	left: 720px;
+	top:-37PX
+}
+#balancevalue{
+	color: white;
+	font-size:27px;
+	position:relative;
+	left:846px;
+	top:-65px;
+}
+
+#points{
+	color:white;
+	font-size:22px;
+	position: relative;
+	left: 832px;
+	top:-95px;
+}
+#dicelogo{
+	width:300px;
+	position: relative;
+	left:285px;
+	top:-120px
+}
+#logodice0{
+	position: relative;
+	left:-105px;
+	top:-135px;
+}
+#logodice1{
+	position:relative;
+	left:190px ;
+	top:-135px;
+}
+#face1{
+	width:80px;
+	visibility:visible;
+	position:relative;
+	left:-420px;
+	top:40px;
+	animation-name:face1;
+    animation-duration: 0.7s;
+    animation-iteration-count:infinite;
+}
+#face2{
+	width:80px;
+	visibility:visible;
+	position:relative;
+	left:-370px;
+	top:40px;
+	animation-name:face2;
+    animation-duration: 0.8s;
+    animation-iteration-count:infinite;
+}
+#face3{
+	width:80px;
+	visibility:visible;
+	position:relative;
+	left:-310px;
+	top:38px;
+	animation-name:face3;
+    animation-duration: 0.7s;
+    animation-iteration-count:infinite;
+}
+#face4{
+	width:80px;
+	visibility:visible;
+	position:relative;
+	left:-250px;
+	top:38px;
+	animation-name:face4;
+    animation-duration: 0.8s;
+    animation-iteration-count:infinite;
+}
+#face5{
+	width:80px;
+	visibility:visible;
+	position:relative;
+	left:-180px;
+	top:38px;
+	animation-name:face5;
+    animation-duration: 0.7s;
+    animation-iteration-count:infinite;
+}
+#face6{
+	width:80px;
+	visibility:visible;
+	position:relative;
+	left:780px;
+	top:-45px;
+	animation-name:face6;
+    animation-duration: 0.8s;
+    animation-iteration-count:infinite;
+}
+#dollar{
+	position: relative;
+	left:905px;
+	top:-165px
+}
+
+#rolldice{
+	background: linear-gradient(-10deg,#141518,#CACACA,#CACACA,#141518);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+   border-radius: 3px;
+   position:absolute;
+   left:570px;
+   top:430px;
+}
+#logoroll{
+	position:relative;
+	left:630px;
+	top:200px;
+
+}
+#betamount{
+  background:linear-gradient(-120deg,#CACACA,#141518,#141518,#CACACA);
+width:120px;
+height:40px;
+position: relative;
+left:-130px;
+top:170px;
+font-size:25px
+}
+#cheeps0{
+	position:relative;
+	left:-125px;
+	top:200px
+}
+#amountlogo{
+	position: relative;
+	left:-345px;
+	top: 130px
+}
+#arrowup{
+    background: green;
+	position: relative;
+	left:-200px;
+	top:190px;
+}
+#arrowdown{
+    background: red;
+	position: relative;
+	left:-100px;
+	top:190px;
+}
+#tickup{
+	visibility: hidden;
+	position:relative;
+	left:-300px;
+	top:115px
+}
+#tickdown{
+	visibility:hidden;
+	position:relative;
+	left:-200px;
+	top:115px
+}
+#rules{
+	position: relative;
+	left:5px;
+	top: -25px
+}
+#resultlogo{
+	position:relative;
+	left:270px;
+	top:-40px
+}
+#resultsquare{
+	width:81px;
+	position:relative;
+	left:280px;
+	top:-30px;
+}
+#finalresult{
+	width:76px;
+ position: relative;
+left:200px;
+top:-33px;
+}
+@keyframes face1 {
+  0%   {top:40px}
+  25%  {top:45px}
+  50%  {top:50px}
+  75%  {top:45px}
+  100% {top:40px}
+}
+@keyframes face2 {
+  0%   {top:40px}
+  25%  {top:45px}
+  50%  {top:50px}
+  75%  {top:45px}
+  100% {top:40px}
+}
+@keyframes face3 {
+  0%   {top:38px}
+  25%  {top:43px}
+  50%  {top:48px}
+  75%  {top:43px}
+  100% {top:38px}
+}
+@keyframes face4 {
+  0%   {top:38px}
+  25%  {top:43px}
+  50%  {top:48px}
+  75%  {top:43px}
+  100% {top:38px}
+}
+@keyframes face5 {
+  0%   {top:38px}
+  25%  {top:43px}
+  50%  {top:48px}
+  75%  {top:43px}
+  100% {top:38px}
+}
+@keyframes face6{
+   0% {top:-45px}
+  25%  {top:-40px}
+  50%  {top:-35px}
+  75%  {top:-40px}
+  100% {top:-45px}
+}
